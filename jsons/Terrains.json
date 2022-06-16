@@ -1,0 +1,35 @@
+[   
+    {
+      "name": "Mount Olympus",
+     "type": "NaturalWonder",
+     "faith": 7,
+     "happiness": 2,
+    "occursOn": ["Plains","Grassland"],
+   "uniques": ["Must be adjacent to [0] [Coast] tiles",			
+     "Must be adjacent to [0] [Marsh] tiles",			
+     "Must be adjacent to [0] [Desert] tiles",			
+     "Must be adjacent to [1] to [2] [Elevated] tiles"],
+     "turnsInto": "Mountain",
+     "impassable": true,
+     "unbuildable": true,
+     "weight": 10
+    },
+ {  
+"name": "Labyrinth of the Minotaur",
+ "type": "NaturalWonder",
+     "faith": 2,
+     "happiness": -1,
+     "culture": 3,
+     "gold": 2,
+    "occursOn": ["Plains","Grassland"],
+   "uniques": ["Must be adjacent to [1] [Coast] tiles",			
+     "Must be adjacent to [0] [Marsh] tiles",			
+     "Must be adjacent to [0] [Desert] tiles",			
+     "Must be adjacent to [0] [Elevated] tiles"],
+     "turnsInto": "Mountain",
+     "impassable": true,
+     "unbuildable": true,
+     "weight": 10
+
+},
+]
